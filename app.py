@@ -7,9 +7,9 @@ import datetime
 import plotly.graph_objects as go
 
 # Load the data
-simulation_data = pd.read_csv('./data/simulation_data.csv')
-tracking_data = pd.read_csv('./data/tracking_data.csv')
-state_probabilities = pd.read_csv('./data/state_probabilities.csv')
+simulation_data = pd.read_csv('data/elect_college_predictions.csv')
+tracking_data = pd.read_csv('data/predictions.csv')
+state_probabilities = pd.read_csv('data/state_predictions.csv')
 
 # Set up the Dash app and include Bootstrap for better styling
 app = dash.Dash(__name__,

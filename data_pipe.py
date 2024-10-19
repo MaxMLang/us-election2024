@@ -56,7 +56,7 @@ if reset_tracker:
         'UB' : [UB,(1-win_perc)+(UB-win_perc)]
     })
 else: 
-    tracking_data = pd.read_csv("./data/tracking_data.csv")
+    tracking_data = pd.read_csv("data/predictions.csv")
     tracking_data = tracking_data.assign(Date = pd.to_datetime(tracking_data['Date'], format='mixed'))
     current_date = datetime.now().date()
 
@@ -75,6 +75,6 @@ else:
 tracking_data = tracking_data.assign(Date = pd.to_datetime(tracking_data['Date']))
 
 # Saving Data
-prob_data.to_csv("./data/state_probabilities.csv", index = False)
-sim_data.to_csv("./data/simulation_data.csv", index = False)
-tracking_data.to_csv("./data/tracking_data.csv", index = False)
+prob_data.to_csv("./data/state_predictions.csv", index = False)
+sim_data.to_csv("./data/elect_college_predictions.csv", index = False)
+tracking_data.to_csv("./data/predictions.csv", index = False)
