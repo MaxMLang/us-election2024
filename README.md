@@ -4,7 +4,7 @@
 
 ### Predicting the Future of American Politics 🇺🇸
 
-Welcome to the **2024 U.S. Presidential Election Model** project! This project utilizes advanced **Hierarchical Bayesian Regression** techniques to forecast the outcome of the 2024 U.S. presidential election. By leveraging data from multiple pollsters and key control variables, my model makes robust and bounded predictions of the election outcome in each state.
+Welcome to the **2024 U.S. Presidential Election Model** project! This project uses  **Hierarchical Bayesian Regression**  to forecast the outcome of the 2024 U.S. presidential election. I use data from multiple pollsters and key control variables, to make robust and bounded predictions of the election outcome in each state.
 
 ---
 
